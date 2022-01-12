@@ -29,7 +29,7 @@ jobs:
         environment-url: 'https://org59b54fc5.crm.dynamics.com'
         user-name: 'AkhilC@clango.com'
         password-secret: ${{ secrets.password }}
-        solution-name: ALMLab
+        solution-name: FEA_Demo
         solution-output-file: out/exported/ALMLab.zip
 
     - name: unpack-solution action
