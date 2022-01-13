@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>fea_demofeadev_b8c53</Name>
-  <AppVersion>2022-01-13T14:35:43Z</AppVersion>
+  <AppVersion>2022-01-13T15:54:29Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.21115.37.0</CreatedByClientVersion>
   <MinClientVersion>3.21115.37.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"e9c7cc1d-8f05-464e-84f5-db15afd3fb84","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21115.37","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"1cfac8e9-4031-44f3-a7db-4159d37cd30f","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21115.37","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
   <DisplayName>Demo_FEA_Dev</DisplayName>
   <Description xsi:nil="true"></Description>
-  <CommitMessage>Rearrange the postion</CommitMessage>
+  <CommitMessage>Add New Button in home welcome page</CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
