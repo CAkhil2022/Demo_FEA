@@ -22,8 +22,8 @@ jobs:
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@v0
       with:
-        solution-folder: solutions/FEA_Demo
-        solution-file: out/solutions/FEA_Demo.zip
+        solution-folder: solutions/FEA
+        solution-file: out/solutions/FEA.zip
         solution-type: Unmanaged
 
     - name: Import solution as unmanaged to build env
@@ -32,7 +32,7 @@ jobs:
         environment-url: 'https://org6ee66eda.crm.dynamics.com'
         user-name: 'Akhilc@clango.com'
         password-secret: ${{ secrets.password }}
-        solution-file: out/solutions/FEA_Demo.zip
+        solution-file: out/solutions/FEA.zip
         force-overwrite: true
         publish-changes: true
 
@@ -44,13 +44,13 @@ jobs:
         password-secret: ${{ secrets.password }}
         solution-name: FEA_Demo
         managed: true
-        solution-output-file: out/ship/FEA_Demo.zip
+        solution-output-file: out/ship/FEA.zip
 
     - name: Upload the ready to ship solution to GH artifact store
       uses: actions/upload-artifact@v2
       with:
         name: managedSolutions
-        path: out/ship/FEA_Demo.zip
+        path: out/ship/FEA.zip
 
   release-to-prod:
     needs: [ convert-to-managed ]
@@ -77,6 +77,6 @@ jobs:
         environment-url: 'https://org38b60082.crm.dynamics.com/'
         user-name: 'Akhilc@clango.com'
         password-secret: ${{ secrets.password }}
-        solution-file: out/release/FEA_Demo.zip
+        solution-file: out/release/FEA.zip
         force-overwrite: true
         publish-changes: true
